@@ -1,0 +1,17 @@
+{
+    "name": "Kongregate Fullscreen",
+    "description": "Auto fullscreen the games on Kongregate website",
+    "author": "DiVouz",
+    
+    "version": "1.0.0",
+
+    "manifest_version": 3,
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.kongregate.com/*"],
+            "css": ["style.css"]
+        }
+    ],
+    "permissions": []
+}
